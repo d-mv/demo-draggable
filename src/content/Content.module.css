@@ -1,0 +1,11 @@
+.container {
+	grid-area: content;
+}
+
+.data {
+	height: 1000rem;
+	width: 100%;
+	background: linear-gradient(180deg,
+			#fff 0%,
+			#000 100%)
+}

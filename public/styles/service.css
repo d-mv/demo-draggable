@@ -1,0 +1,27 @@
+.center {
+  display: grid;
+  place-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+
+@keyframes toOpen {
+  0% {
+    width: 6rem;
+  }
+  100% {
+    width: 52rem;
+  }
+}
+
+@keyframes toClose {
+  0% {
+    width: 52rem;
+  }
+  100% {
+    width: 6rem;
+  }
+}

@@ -1,0 +1,14 @@
+.container {
+	display: grid;
+	height: 100dvh;
+	width: 100dvw;
+	grid-template-areas: "header header" "content scroll ";
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 10rem 1fr;
+}
+
+.header {
+	grid-area: header;
+	align-self: center;
+	text-align: center;
+}

@@ -1,0 +1,164 @@
+:root {
+  /* colors */
+  --color-info-1: #006bdb;
+  --color-info-2: #438fdd;
+  --color-white: #fefefe;
+  --color-back: #fcfcfc;
+  --color-text: #444;
+  --color-secondary-1: #d9d9d9;
+  --color-secondary-2: #dedede;
+  --color-secondary-3: #ececec;
+  --color-secondary-4: #f7f7f7;
+  --color-secondary-5: #fdfdfd;
+  --color-primary-1: #686868;
+  --color-primary-2: #8e8e8e;
+  --color-primary-3: #b3b3b3;
+  --color-primary-4: #e1e1e1;
+  --color-primary-5: #f7f7f7;
+  --color-accent-1: #6fb632;
+  --color-accent-2: #94c76a;
+  --color-accent-4: #e2f0d7;
+  --color-error-1: #ea5558;
+  --color-warn-1: #f7cd37;
+  /* animations */
+  --transition: all 0.112s ease-in-out;
+  --transition-slow: all 0.2s ease-in-out;
+  /* shadow levels */
+  --shadow-1: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.08);
+  --shadow-2: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
+
+  --radius: .2rem;
+  --border-active: 0.1rem solid var(--color-accent-1);
+  --border-passive: 0.1rem solid transparent;
+  --border: .1rem solid  var(--color-primary-4);
+  --divider: 0.1rem solid var(--color-primary-3);
+  --font-family: 'Noto Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  overflow: auto;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-back);
+  color: var(--color-text);
+}
+
+#root {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+::-webkit-scrollbar {
+  display:none;
+  /* background-color: transparent;
+  width: 0.5rem; */
+}
+/*
+::-webkit-scrollbar-button {
+}
+
+::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track-piece {
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary-4);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-corner {
+}
+
+::-webkit-resizer {
+} */
+/*
+h1 {
+  font-weight: 400;
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 2.2rem;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+h6 {
+  font-weight: regular;
+  font-size: 1.8rem;
+}
+
+.p5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.p4 {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.p2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.p1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+} */
+
+button {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.serif {
+  font-family: var(--font-family-serif);
+}
+
+/* @import './tooltip.css'; */

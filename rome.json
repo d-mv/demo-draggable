@@ -1,0 +1,31 @@
+{
+	"$schema": "https://docs.rome.tools/schemas/12.1.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "tab"
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"a11y": {
+				"noSvgWithoutTitle": "off"
+			},
+			"recommended": true,
+			"complexity": {},
+			"correctness": {},
+			"performance": {},
+			"security": {},
+			"style": {
+				"useFragmentSyntax": "error"
+			},
+			"nursery": {
+				"useHookAtTopLevel": "error",
+				"useExhaustiveDependencies": "error"
+			},
+			"suspicious": {}
+		}
+	}
+}
